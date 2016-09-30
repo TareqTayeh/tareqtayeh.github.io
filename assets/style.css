@@ -37,9 +37,9 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .banner{position: relative;}
 .banner .caption{position: absolute;top: 0;left:0; right: 0; bottom: 0;background:rgba(0,0,0,0.9); }
 .banner .caption-wrapper{display: table;height: 100%;width: 100%;}
-.banner .caption-info{display: table-cell;vertical-align: middle;text-align: center;color: #fff;}
-.banner .caption-info h1{font:normal 4.5em Josefin Sans,Arial,Helvetica;text-transform:capitalize;}
-.banner .caption-info p{font:600 1.7em Josefin Sans,Arial,Helvetica;}
+.banner .caption-info{display: table-cell;vertical-align: top;padding-top: 20px; text-align: center;color: #fff;}
+.banner .caption-info h1{font:normal 3.3em Josefin Sans,Arial,Helvetica;text-transform:capitalize;}
+.banner .caption-info p{font:600 1.5em Josefin Sans,Arial,Helvetica; text-align: justify;padding: 10px;}
 .banner a.explore{color: #fff;}
 .explore{margin: 0 1em;}
 .banner img.profile{border:5px solid #333;}
