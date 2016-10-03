@@ -1,0 +1,4 @@
+- Add all jerseys
+- Seperate gallery for each jersey
+- Fix fonts for different browsers
+- Add mini pictures for each  jersey
