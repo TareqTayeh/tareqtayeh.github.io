@@ -2,3 +2,9 @@
 - Seperate gallery for each jersey
 - Fix fonts for different browsers
 - Add mini pictures for each  jersey
+- Add database
+- Shirt Info on the side eg Country, Club, Year etc
+
+- Retake Pics of:
+Man City Alternate
+Liverpool 2014/2015
