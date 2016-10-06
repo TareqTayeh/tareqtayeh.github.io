@@ -30,6 +30,23 @@
 
 <link rel="stylesheet" href="assets/style.css">
 
+<?php
+$servername = "http://sql3.freemysqlhosting.net/";
+$username = "sql3138940";
+$password = "L3egy29a11";
+
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=myDB", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "Connected successfully"; 
+    }
+catch(PDOException $e)
+    {
+    echo "Connection failed: " . $e->getMessage();
+    }
+?>
+
 </head>
 
 <body>
@@ -62,8 +79,6 @@
 
 <!-- works -->
 <div id="works"  class=" clearfix grid"> 
-	
-	
 	<figure class="effect-oscar  wowload fadeInUp">
         <img src="images/jerseys/Liverpool2014_2015.jpg" alt="Liverpool 2014/2015 Home"/>
         <figcaption>
@@ -220,26 +235,13 @@
             <p><a href="images/jerseys/Spain2014_2015.jpg" title="Spain 2014/2015 Home" data-gallery>View</a></p>  			
         </figcaption> 	
     </figure>
-	
 </div>
-  </div>
-
-
-
-    </div>
-  </div>
-
-</div>
-
-
-
-
 
 
 <!-- Footer Starts -->
 <div class="footer text-center spacer">
 <p class="wowload flipInX"><a href="mailto:tayehtareq@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a><a href="https://ca.linkedin.com/in/tareqtayeh" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a><a href="https://twitter.com/tarektayeh" target="_blank"><i class="fa fa-twitter fa-2x"></i></a><a href="https://www.instagram.com/tarektayeh/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></p>
-<h2>Hope you enjoyed looking through my authentic collection!</h2>
+<h2>All Jerseys are officially licensed. Hope you enjoyed looking through my collection!</h2>
 <p> Tareq Tayeh</p>
 </div>
 <!-- # Footer Ends -->
