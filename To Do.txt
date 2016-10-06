@@ -2,8 +2,11 @@
 - Seperate gallery for each jersey
 - Fix fonts for different browsers
 - Add mini pictures for each  jersey - Badge, Patches, Teams etc
-- Add database (Add coloumns images and short team names?)
+- Export database
+- Add Search, Sort and Filters to page
 - Shirt Info on the side eg Country, Club, Year etc
+- Resize some images
+- Add PHP file to github instead of html file
 
 - Retake Pics of:
 Man City Alternate
