@@ -44,6 +44,33 @@ if ($conn->connect_error) {
 } 
 ?>
 
+<style>
+input{
+	float:center;
+}
+
+input[type=text] {
+    width: 240px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+	background:url('./images/icons/searchicon.png') no-repeat 3px 13px;
+	background-size: 20px 20px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 14px 30px 14px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	vertical-align: bottom;
+	color: black;
+}
+
+#filters{
+	padding: 150px 25px 150px 25px;
+}
+</style>
+
 </head>
 
 <body>
@@ -65,7 +92,13 @@ if ($conn->connect_error) {
 				  posts arguing if the ball went over the imaginary crossbar or into the net. Telling your friends to call you your favorite players name whilst playing. One game 
 				  could go on forever. It caused fallout, friendships, and bonds to form. So to answer my earlier question. No. Football is not just a game. It's a way of life.
 				  And each jersey has a story.</p>
-				  <div class="animated bounceInDown"><a href="#works" class="btn btn-default explore">View Collection</a></div>
+				  <div class="animated bounceInDown"><a href="#works" class="btn btn-default explore">View Collection</a></div><br>
+				  <!--<div id="filters">
+					  <form>
+						<input type="text" name="search">
+						<a class="btn btn-default explore">Search</a>
+					  </form>
+				  </div>-->
               </div>
             </div>
           </div>
