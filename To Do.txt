@@ -1,15 +1,11 @@
 - Resize some images
 - Retake Pics
 - Add mini pictures for each  jersey - Badge, Patches, Teams etc
-- Add images data to database
-- Add jerseys coming by mail (# = 4)
 - Seperate gallery for each jersey
-- Fix fonts for different browsers
+- Fix fonts for different browsers - no issue for .php file
 - Export database
 - Add Search, Sort and Filters to page
 - Shirt Info on the side eg Country, Club, Year etc
-- Host webpage in a different website cause of PHP issue
-- Fix Prev, Next, Close Gallery symbol error
 - Hide and Secure Database Password
 
 - Retake Pics of:
@@ -17,3 +13,6 @@ Man City Alternate
 Liverpool 2014/2015
 Inter Milan
 Bayern Munich
+
+-tareqtayeh.comxa.com
+-tareqtayeh.github.io
