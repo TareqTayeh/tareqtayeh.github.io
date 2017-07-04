@@ -2,12 +2,10 @@
 - Retake Pics
 - Add mini pictures for each  jersey - Badge, Patches, Teams etc
 - Seperate gallery for each jersey
-- Fix fonts for different browsers - no issue for .php file
-- Export database
-- Add Search, Sort and Filters to page
+- Fix fonts for different browsers
 - Shirt Info on the side eg Country, Club, Year etc
-- Hide and Secure Database Password
-- Make updates to index.php
+- Reorder Jerseys
+- Make it mobile friendly
 
 - Retake Pics of:
 Man City Alternate
@@ -15,5 +13,6 @@ Liverpool 2014/2015
 Inter Milan
 Bayern Munich
 
--tareqtayeh.comxa.com
+-https://tayehjerseys.000webhostapp.com/
+-tayehjerseys.comxa.com
 -tareqtayeh.github.io
